@@ -1,6 +1,6 @@
-format 212
+format 214
 "UML" // UML
-  revision 51
+  revision 52
   modified_by 2 "JamesECabral"
   // class settings
   
@@ -366,7 +366,7 @@ ${members}};
     activitydiagramsettings
      end
     class 2087554 "CourtPolicyMDE"
-      visibility package stereotype "interface"
+      visibility protected stereotype "interface"
       cpp_decl "${comment}${template}class ${name}${inherit} {
 ${members}};
 ${inlines}

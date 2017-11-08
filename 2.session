@@ -1,20 +1,18 @@
-window_sizes 2736 1699 942 1788 1411 211
+window_sizes 2736 1699 526 2204 1411 211
 cleanlooks_style
 marked
   attribute_ref 158722 // serviceRecipientID
   attribute_ref 159106 // serviceRecipientID
   class_ref 149506 // CaseParticipant
 end
-selected operation_ref 129410 // GetDocument
+selected operation_ref 128770 // GetPolicy
 open
+  componentview_ref 128002 // Components
   class_ref 2087554 // CourtPolicyMDE
   class_ref 129538 // CourtRecordMDE
-  class_ref 198786 // CourtSchedulingMDE
   class_ref 129410 // FilingAssemblyMDE
   class_ref 129282 // FilingReviewMDE
   class_ref 130434 // ServiceMDE
-  class_ref 1498626 // CancelFilingMessage
-  classview_ref 172802 // Stereotypes
   
   package_ref 201602 // NIEM
 end

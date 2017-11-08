@@ -1,6 +1,6 @@
-format 212
+format 214
 "Case Type Extensions" // UML::Case Type Extensions
-  revision 288
+  revision 289
   modified_by 2 "JamesECabral"
   // class settings
   

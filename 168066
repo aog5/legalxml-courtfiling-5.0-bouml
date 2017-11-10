@@ -1,6 +1,6 @@
 format 214
 "UML" // UML
-  revision 52
+  revision 53
   modified_by 2 "JamesECabral"
   // class settings
   
@@ -389,7 +389,7 @@ ${members}};
       comment "The list of operations supported by the Court Policy MDE."
       operation 128770 "GetPolicy"
 	stereotype "niem-profile:webservice"
-	public explicit_return_type "void"
+	public return_type class_ref 136834 // GetPolicyResponseMessage
 	nparams 3
 	  param in name "body" type class_ref 130562 // GetPolicyRequestMessage
 	multiplicity "1"

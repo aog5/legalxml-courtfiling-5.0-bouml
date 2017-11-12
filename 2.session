@@ -5,12 +5,12 @@ marked
   attribute_ref 159106 // serviceRecipientID
   class_ref 149506 // CaseParticipant
 end
-selected class_ref 10947842 // @SimpleObjectAttributeGroup
+selected 
+  package_ref 129 // legalxml-courtfiling-5.0-bouml
 open
   
   package_ref 168066 // UML
-  classview_ref 849282 // nc
-  classview_ref 848258 // structures
-  classview_ref 847490 // xml
+  
+  package_ref 201602 // NIEM
 end
 end
